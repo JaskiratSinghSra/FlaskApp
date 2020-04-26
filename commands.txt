@@ -1,0 +1,152 @@
+    1  clear
+    2  ls
+    3  clear
+    4  sl
+    5  python
+    6  python
+    7  python --version
+    8  pyhton
+    9  python -v
+   10  clear
+   11  python -- versipn
+   12  python -- version
+   13  python
+   14  python 
+   15  python --version
+   16  clear
+   17  pip --version
+   18  pipenv install
+   19  pipenv install dev
+   20  clear
+   21  pipenv install flask
+   22  exit
+   23  pip install pipenv
+   24  clear
+   25  pipenv shell
+   26  clear
+   27  pip install flask
+   28  pip install flask
+   29  pipenv
+   30  pipenv shell
+   31  clear
+   32  ls
+   33  ls
+   34  cd c:
+   35  cear
+   36  ls
+   37  cd FlaskProject/
+   38  clear
+   39  ls
+   40  pipenv install
+   41  pip install --upgrade setuptools
+   42  clear
+   43  docker images
+   44  docker ps
+   45  clear
+   46  pipenv shell
+   47  pipenev install flask
+   48  pipenv install flask
+   49  pipenv install flask-restplus
+   50  pipenv install Flask
+   51  pipenv install Werkzeug==0.16.1
+   52  clear
+   53  pipenv graph
+   54  clear
+   55  ls
+   56  ./buiild.sh 
+   57  ./build.sh 
+   58  ./build.sh 
+   59  docker images
+   60  docker run --name flask-tutorial -p 5000:5000 flask-tutorial
+   61  docker run --name flask-tutorial -p 5000:5000 flask-tutorial
+   62  docker ps
+   63  docker ps
+   64  docker ps
+   65  docker ps
+   66  docker run --name flask-tutorial -p 5000:5000 flask-tutorial
+   67  docker stop
+   68  clear
+   69  docker ps
+   70  docker images
+   71  docker containers
+   72  docker run --name flask-tutorial -p 5000:5000 flask-tutorial
+   73  docker ps
+   74  docker rmi flask-tutorial
+   75  docker ps
+   76  docker stop 89cc87f38a75
+   77  clear
+   78  docker rmi flask-tutorial
+   79  docker stop 
+   80  docker stop 
+   81  docker stop 89cc87f38a75
+   82  docker ps
+   83  docker rmi flask-tutorial
+   84  docker rm -f
+   85  docker ps -q
+   86  docker ps
+   87  docker kill $(docker ps -q)
+   88  clear
+   89  docker container ls
+   90  docker ps -a
+   91  docker stop 89cc87f38a75
+   92  docker ps -a
+   93  docker rm $(docker ps -a -f status=exited -q)
+   94  docker ps -a
+   95  clear
+   96  docker images
+   97  docker rm flask-tutorial
+   98  docker rm iamge flask-tutorial
+   99  docker rm image flask-tutorial
+  100  docker images
+  101  docker rmo flask-tutorial
+  102  docker rmi flask-tutorial
+  103  clear
+  104  docker images
+  105  ./build.sh 
+  106  clear
+  107  sudo docker run --name flask-tutorial -p 5000:5000 flask-tutorial
+  108  docker run --name flask-tutorial -p 5000:5000 flask-tutorial
+  109  docker run --name flask-tutorial -p 5000:5000 flask-tutorial
+  110  docker rm $(docker ps -a -f status=exited -q)
+  111  clear
+  112  docker run --name flask-tutorial -p 5000:5000 flask-tutorial
+  113  docker rm $(docker ps -a -f status=exited -q)
+  114  clear
+  115  ./build.sh 
+  116  docker run --name flask-tutorial -p 5000:5000 flask-tutorial
+  117  clear
+  118  docker ps
+  119  docker stop e6c7598d4d2e
+  120  clear
+  121  ./build.sh 
+  122  clear
+  123  docker run --name flask-tutorial -p 5000:5000 flask-tutorial
+  124  docker rm $(docker ps -a -f status=exited -q)
+  125  docker run --name flask-tutorial -p 5000:5000 flask-tutorial
+  126  docker stop e6c7598d4d2e
+  127  docker rm $(docker ps -a -f status=exited -q)
+  128  docker rm $(docker ps -a -f status=active -q)
+  129  clear
+  130  docker ps
+  131  docker logs -f e6392cf1a327
+  132  clear
+  133  docker ps
+  134  docker stop e6392cf1a327
+  135  clear
+  136  docker rm $(docker ps -a -f status=active -q)
+  137  clear
+  138  docker images
+  139  docker rmi 
+  140  docker rmi <none>
+  141  docker rmi none
+  142  clear
+  143  docker ps -a
+  144  docker rm $(docker ps -a -f status=active -q)
+  145  docker rm $(docker ps -a -f status=exited -q)
+  146  docker ps -a
+  147  clear
+  148  ./build.sh 
+  149  clear
+  150  docker run --name flask-tutorial -p 5000:5000 flask-tutorial
+  151  clear
+  152  history >> commands.txt

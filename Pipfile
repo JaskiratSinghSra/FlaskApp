@@ -1,0 +1,18 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+flask = "*"
+flask-restplus = "*"
+flask-sqlalchemy = "*"
+psycopg2 = "*"
+sqlalchemy = "*"
+werkzeug = "==0.16.1"
+flask-migrate = "*"
+
+[requires]
+python_version = "3.7"
