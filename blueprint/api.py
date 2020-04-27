@@ -6,8 +6,12 @@ api = Api(blueprint)
 
 ns_conf = api.namespace('user', description='Operations related to user')
 
-user_parser = reqparse.RequestParser()
-user_parser.add_argument('email', required=True, help='User Email')
+get_user_parser = reqparse.RequestParser()
+get_user_parser.add_argument('email', required=True, help='User Email')
+
+add_user_parser = reqparse.RequestParser()
+add_user_parser.add_argument('username', required=True, help='Username')
+add_user_parser.add_argument('email', required=True, help='User Email')
 
 
 @api.route('/health')
@@ -23,15 +27,21 @@ class UserList(Resource):
         returns a list of all users
         """
 
+    @api.expect(add_user_parser)
     def post(self):
         """
         Adds a new user
         """
 
+        args = add_user_parser.parse_args()
+        username = args.username
+        email = args.email
+        return username,email
+
 
 @ns_conf.route("/<string:email>")
 class User(Resource):
-    @api.expect(user_parser)
+    @api.expect(get_user_parser)
     def get(self, id):
         """
         Displays a particular user details details
